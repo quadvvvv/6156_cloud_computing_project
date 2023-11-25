@@ -1,1 +1,0 @@
-# 6156_cloud_computing_project
