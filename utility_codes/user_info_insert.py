@@ -3,7 +3,7 @@ import json
 import psycopg2
 
 # Read data from JSON file
-with open("fake_data.json", "r") as json_file:
+with open("fake_userinfo.json", "r") as json_file:
     fake_data = json.load(json_file)
 
 # Connect to PostgreSQL with debug statements
@@ -31,6 +31,7 @@ try:
                 name VARCHAR(255) NOT NULL,
                 company VARCHAR(255),
                 email VARCHAR(255) NOT NULL,
+                is_recruiter BOOLEAN NOT NULL,
                 picture_url VARCHAR(255) NULL
             );
         """)
@@ -42,9 +43,9 @@ try:
     try:
         for user in fake_data:
             cursor.execute("""
-                INSERT INTO userinfo (uuid, name, company, email, picture_url)
-                VALUES (%s, %s, %s, %s, %s);
-            """, (user["uuid"], user["name"], user["company"], user["email"], user["picture_url"]))
+                INSERT INTO userinfo (uuid, name, company, email, is_recruiter, picture_url)
+                VALUES (%s, %s, %s, %s, %s, %s);
+            """, (user["uuid"], user["name"], user["company"], user["email"], user["is_recruiter"], user["picture_url"]))
             print(f"Inserted data for {user['name']} ({user['email']}).")
         connection.commit()
     except psycopg2.Error as err:
