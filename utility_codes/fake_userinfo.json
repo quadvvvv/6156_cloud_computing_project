@@ -1,0 +1,82 @@
+[
+  {
+    "uuid": "cd2fe4d3-53aa-4094-bad0-f5483ec1544d",
+    "name": "Christina Trevino",
+    "company": "Rush, Taylor and Pham",
+    "email": "joshua96@example.com",
+    "is_recruiter": false,
+    "picture_url": null
+  },
+  {
+    "uuid": "4d204697-c485-492f-a381-82b977ef7763",
+    "name": "Donna Wagner",
+    "company": "Wright and Sons",
+    "email": "iprice@example.org",
+    "is_recruiter": false,
+    "picture_url": null
+  },
+  {
+    "uuid": "40b351d9-c466-443b-a4e3-f2f49e6ca1c7",
+    "name": "Cynthia Wilson",
+    "company": "Jones and Sons",
+    "email": "juan39@example.com",
+    "is_recruiter": false,
+    "picture_url": null
+  },
+  {
+    "uuid": "39ddcec6-10a0-407a-acdf-57b9634f37f7",
+    "name": "Courtney Castro",
+    "company": "West PLC",
+    "email": "tony15@example.com",
+    "is_recruiter": false,
+    "picture_url": null
+  },
+  {
+    "uuid": "3346db1b-9cba-4ed6-a37b-bd2a20d0bfc1",
+    "name": "Scott Lewis",
+    "company": "Wilson-Flores",
+    "email": "donna80@example.org",
+    "is_recruiter": false,
+    "picture_url": null
+  },
+  {
+    "uuid": "160494c5-cd7b-4b22-94be-ea4c6572e5db",
+    "name": "Jorge Gutierrez",
+    "company": "Brown-Wilson",
+    "email": "katelyn35@example.org",
+    "is_recruiter": false,
+    "picture_url": null
+  },
+  {
+    "uuid": "73498a87-cde2-4c06-9215-d45124dc57e8",
+    "name": "Christopher Cox",
+    "company": "Todd LLC",
+    "email": "andrea53@example.org",
+    "is_recruiter": false,
+    "picture_url": null
+  },
+  {
+    "uuid": "d9e66cfd-e4c2-4ea5-9bac-83484bf896e8",
+    "name": "Brandi Rodriguez",
+    "company": "Kirk LLC",
+    "email": "daniellelang@example.com",
+    "is_recruiter": false,
+    "picture_url": null
+  },
+  {
+    "uuid": "b28a57e4-497a-4b49-b6e2-c1fc93c64af8",
+    "name": "John Jackson",
+    "company": "Johnson, White and Ryan",
+    "email": "steven96@example.net",
+    "is_recruiter": true,
+    "picture_url": null
+  },
+  {
+    "uuid": "04bafba0-7cbc-40cd-b28e-1f71bd1f54b4",
+    "name": "Sara Hall PhD",
+    "company": "Brown-Rhodes",
+    "email": "yanderson@example.org",
+    "is_recruiter": false,
+    "picture_url": null
+  }
+]
